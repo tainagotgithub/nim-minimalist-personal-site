@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'cloud engineer',
+  title: 'cloud engineering',
 }
 
 const geist = Geist({
