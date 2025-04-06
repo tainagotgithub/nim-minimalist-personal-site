@@ -39,15 +39,15 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: 'EBANX',
     title: 'mid level cloud analyst',
-    start: 'dez - 2024',
+    start: 'dez/2024',
     end: 'Present',
     id: 'work1',
   },
   {
     company: 'Paraná Banco',
     title: 'devops engineer, from intern to mid level',
-    start: 'jun - 2021',
-    end: 'nov - 2024',
+    start: 'jun/2021',
+    end: 'nov/2024',
     id: 'work2',
   },
 ]
