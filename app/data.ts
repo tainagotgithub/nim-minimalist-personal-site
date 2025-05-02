@@ -54,10 +54,16 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'xxxxxxxxxxx',
+    title: 'aws project',
     description: 'xx',
-    link: '/blog/xxx',
+    link: '/blog/aws',
     uid: 'blog-1',
+  },
+  {
+    title: 'kubernetes and azure',
+    description: 'xx',
+    link: '/blog/k8',
+    uid: 'blog-2'
   }
 //  {
 //    title: 'Why I left my job to start my own company',
