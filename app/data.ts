@@ -1,16 +1,16 @@
-type Project = {
-  name: string
-  description: string
-  link: string
-  id: string
-}
-
 type WorkExperience = {
   company: string
   title: string
   start: string
   end: string
   id: string
+}
+
+type Certifications = { 
+  company: string
+  title: string
+  dateIssued: string
+  link: string
 }
 
 type BlogPost = {
@@ -24,16 +24,6 @@ type SocialLink = {
   label: string
   link: string
 }
-
-export const PROJECTS: Project[] = [
-  {
-    name: 'xxxxxx',
-    description:
-      'x',
-    link: 'xx',
-    id: 'project1',
-  }
-]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
@@ -52,6 +42,26 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
 ]
 
+export const CERTIFICATIONS: Certifications [] = [
+  { 
+    company: 'AWS',
+    title: 'aws solutions architect associate',
+    dateIssued: 'sep/06, 2025 - sep/06, 2028',
+    link: 'https://www.credly.com/badges/fcd37821-3a19-483e-a981-9ee3ad265061'
+  },
+  {
+    company: 'AWS',
+    title: 'aws cloud pratictioner',
+    dateIssued: 'oct/25, 2024 - sep/06, 2028',
+    link: 'https://www.credly.com/badges/e343268b-baec-48c1-aa56-802f64b4d050',
+  },
+  { 
+    company: 'azure',
+    title: 'AZ-104',
+    dateIssued: 'janurary 15, 2022',
+    link: 'https://www.credly.com/badges/42889918-8b2a-4513-9a94-1514f4192d04', 
+   }
+]
 export const BLOG_POSTS: BlogPost[] = [
   {
     title: 'aws project',
@@ -64,6 +74,12 @@ export const BLOG_POSTS: BlogPost[] = [
     description: 'xx',
     link: '/blog/k8',
     uid: 'blog-2'
+  },
+  {
+    title: 'backstage poc',
+    description: 'xx',
+    link: '/blog/backstage',
+    uid: 'blog-3'
   }
 //  {
 //    title: 'Why I left my job to start my own company',
