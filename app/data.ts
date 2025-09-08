@@ -51,7 +51,7 @@ export const CERTIFICATIONS: Certifications[] = [
   },
   {
     company: 'AWS',
-    title: 'aws cloud pratictioner',
+    title: 'aws cloud practitioner',
     dateIssued: 'oct/25, 2024 - sep/06, 2028',
     link: 'https://www.credly.com/badges/e343268b-baec-48c1-aa56-802f64b4d050',
   },
