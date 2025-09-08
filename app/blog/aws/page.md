@@ -11,11 +11,11 @@ Built reusable Terraform modules for VPC, ECS, ALB, RDS, and S3.
 
 Used CloudFormation for sensitive resources like IAM roles and policies, and StackSets integration.
 
-Set up CI/CD pipelines with GitHub Actions and AWS CodePipeline.
+Set up CI/CD pipelines with GitHub.
 
 Managed multi-stage environments (dev/stage/prod) using separate workspaces.
 
 Implemented versioning and technical documentation for onboarding.
 
 Technologies Used:
-Terraform, AWS CloudFormation, ECS, S3, RDS, ALB, IAM, CodePipeline, GitHub Actions, CloudWatch, Route 53
+AWS CloudFormation, ECS, S3, RDS, ALB, IAM, GitHub Actions, Route 53
