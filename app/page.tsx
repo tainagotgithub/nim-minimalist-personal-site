@@ -137,8 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            where automation meets intuition. designing cloud systems that just
-            work — securely, efficiently, beautifully.
+              automation and intuition. designing cloud systems. securely, efficiently, innovatively.  
           </p>
         </div>
       </motion.section>
