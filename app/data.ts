@@ -13,7 +13,7 @@ type Certifications = {
   link: string
 }
 
-type BlogPost = {
+type Projects = {
   title: string
   description: string
   link: string
@@ -63,7 +63,7 @@ export const CERTIFICATIONS: Certifications[] = [
   },
 ]
 
-export const BLOG_POSTS: BlogPost[] = [
+export const PROJECTS: Projects[] = [
   {
     title: 'sre starter course',
     description: 'an end-to-end SRE project focused on system reliability. combines chaos injection (latency/failure simulation) with real-time monitoring to validate error budgets, performance bottlenecks, and graceful degradation',

@@ -13,7 +13,7 @@ import { XIcon } from 'lucide-react'
 import { motion } from 'motion/react'
 import Link from 'next/link'
 import {
-  BLOG_POSTS,
+  PROJECTS,
   EMAIL,
   SOCIAL_LINKS,
   WORK_EXPERIENCE,
@@ -220,7 +220,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">blog</h3>
+        <h3 className="mb-3 text-lg font-medium">projects</h3>
         <div className="flex flex-col space-y-0">
           <AnimatedBackground
             enableHover
@@ -231,7 +231,7 @@ export default function Personal() {
               duration: 0.2,
             }}
           >
-          {BLOG_POSTS.map((post) => (
+          {PROJECTS.map((post) => (
             <a
               key={post.uid}
               className="-mx-3 rounded-xl px-3 py-3"
