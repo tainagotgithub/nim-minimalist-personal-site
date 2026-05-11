@@ -137,7 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-              automation and intuition. designing cloud systems. securely, efficiently, innovatively.  
+            +4 years of experience building and automating cloud-native infrastructure at scale. focused on kubernetes, infrastructure as code, and improving developer workflows through platform engineering. with a post-graduate background in SRE, i emphasize observability and resilience to scale high-availability fintech operations and optimize multi-cloud delivery pipelines.
           </p>
         </div>
       </motion.section>
