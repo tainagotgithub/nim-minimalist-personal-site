@@ -62,39 +62,26 @@ export const CERTIFICATIONS: Certifications[] = [
     link: 'https://www.credly.com/badges/42889918-8b2a-4513-9a94-1514f4192d04',
   },
 ]
+
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'aws project',
-    description: 'xx',
-    link: '/blog/aws',
+    title: 'sre starter course',
+    description: 'an end-to-end SRE project focused on system reliability. combines chaos injection (latency/failure simulation) with real-time monitoring to validate error budgets, performance bottlenecks, and graceful degradation',
+    link: 'https://github.com/tainagotgithub/NOME_DO_REPO_SRE',
     uid: 'blog-1',
   },
   {
-    title: 'kubernetes and azure',
-    description: 'xx',
-    link: '/blog/k8',
+    title: 'google kubernetes service project',
+    description: 'GKE platform managed via GitOps. combines Terraform for infrastructure provisioning with Anthos Config Sync (Kustomize) for continuous delivery and multitenant management of cluster configurations, RBAC, and observability',
+    link: 'https://github.com/tainagotgithub/NOME_DO_REPO_GKE',
     uid: 'blog-2',
   },
   {
     title: 'backstage poc',
-    description: 'xx',
-    link: '/blog/backstage',
+    description: 'features full monorepo setup with modern backend system, custom scaffolder templates for standardized repository creation, and complete infrastructure as code for scalable deployment on AWS ECS',
+    link: 'https://github.com/tainagotgithub/NOME_DO_REPO_BACKSTAGE',
     uid: 'blog-3',
   },
-  //  {
-  //    title: 'Why I left my job to start my own company',
-  //    description:
-  //      'A deep dive into my decision to leave my job and start my own company',
-  //    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-  //    uid: 'blog-2',
-  //  },
-  //  {
-  //    title: 'What I learned from my first year of freelancing',
-  //    description:
-  //      'A look back at my first year of freelancing and what I learned',
-  //    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-  //    uid: 'blog-3',
-  //  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [

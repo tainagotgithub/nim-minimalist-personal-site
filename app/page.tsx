@@ -231,22 +231,24 @@ export default function Personal() {
               duration: 0.2,
             }}
           >
-            {BLOG_POSTS.map((post) => (
-              <Link
-                key={post.uid}
-                className="-mx-3 rounded-xl px-3 py-3"
-                href={post.link}
-                data-id={post.uid}
-              >
+          {BLOG_POSTS.map((post) => (
+            <a
+              key={post.uid}
+              className="-mx-3 rounded-xl px-3 py-3"
+              href={post.link}
+              data-id={post.uid}
+              target="_blank"            // Abre em nova aba
+              rel="noopener noreferrer"  // Segurança para links externos
+            >
                 <div className="flex flex-col space-y-1">
-                  <h4 className="font-normal dark:text-zinc-100">
-                    {post.title}
-                  </h4>
+                    <h4 className="font-normal dark:text-zinc-100">
+                      {post.title}
+                    </h4>
                   <p className="text-zinc-500 dark:text-zinc-400">
                     {post.description}
                   </p>
                 </div>
-              </Link>
+              </a>
             ))}
           </AnimatedBackground>
         </div>
