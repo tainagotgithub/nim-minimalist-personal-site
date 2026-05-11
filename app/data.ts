@@ -67,19 +67,19 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     title: 'sre starter course',
     description: 'an end-to-end SRE project focused on system reliability. combines chaos injection (latency/failure simulation) with real-time monitoring to validate error budgets, performance bottlenecks, and graceful degradation',
-    link: 'https://github.com/tainagotgithub/NOME_DO_REPO_SRE',
+    link: 'https://github.com/tainagotgithub/sre-course',
     uid: 'blog-1',
   },
   {
     title: 'google kubernetes service project',
     description: 'GKE platform managed via GitOps. combines Terraform for infrastructure provisioning with Anthos Config Sync (Kustomize) for continuous delivery and multitenant management of cluster configurations, RBAC, and observability',
-    link: 'https://github.com/tainagotgithub/NOME_DO_REPO_GKE',
+    link: 'https://github.com/tainagotgithub/gke-project',
     uid: 'blog-2',
   },
   {
-    title: 'backstage poc',
+    title: 'backstage - proof of concept',
     description: 'features full monorepo setup with modern backend system, custom scaffolder templates for standardized repository creation, and complete infrastructure as code for scalable deployment on AWS ECS',
-    link: 'https://github.com/tainagotgithub/NOME_DO_REPO_BACKSTAGE',
+    link: 'https://github.com/tainagotgithub/backstage',
     uid: 'blog-3',
   },
 ]
