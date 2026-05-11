@@ -28,7 +28,7 @@ type SocialLink = {
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: 'EBANX',
-    title: 'mid level cloud analyst',
+    title: 'mid level cloud operations and platform analyst',
     start: 'dez/2024',
     end: 'Present',
     id: 'work1',
