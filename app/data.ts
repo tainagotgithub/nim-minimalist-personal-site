@@ -57,7 +57,7 @@ export const CERTIFICATIONS: Certifications[] = [
   },
   {
     company: 'azure',
-    title: 'AZ-104',
+    title: 'AZ-900',
     dateIssued: 'janurary 15, 2022',
     link: 'https://www.credly.com/badges/42889918-8b2a-4513-9a94-1514f4192d04',
   },
