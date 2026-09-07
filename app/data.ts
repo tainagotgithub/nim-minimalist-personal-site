@@ -93,6 +93,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/taina-bedim-puja',
   },
+  {
+    label: 'Medium',
+    link: 'https://medium.com/@bedtaina',
+  }
 ]
 
 export const EMAIL = 'bedtaina@gmail.com'
