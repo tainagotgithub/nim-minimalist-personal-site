@@ -82,6 +82,12 @@ export const PROJECTS: Projects[] = [
     link: 'https://github.com/tainagotgithub/backstage',
     uid: 'blog-3',
   },
+  {
+    title: 'ai-native incident lifecycle',
+    description: 'a look into combining SRE fundamentals with the AWS DevOps Agent to automate triage and context-gathering during high-urgency pages',
+    link: 'https://medium.com/@bedtaina/waking-up-less-rethinking-our-alerting-and-piloting-an-ai-native-incident-lifecycle-f6bf01326097?sharedUserId=bedtaina',
+    uid: 'blog-4',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
